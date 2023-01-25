@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/repository:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/alist:v3
